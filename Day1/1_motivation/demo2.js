@@ -1,16 +1,20 @@
-console.log("Demo One");
+console.log("Demo Two");
 
-function Person(name) {
-    this._name = name;
-
-    this.getName = function () {
+const Person = (function(){
+    function Person(name) {
+        this._name = name;
+    }
+    
+    Person.prototype.getName = function () {
         return this._name.toUpperCase();
     }
-
-    this.setName = function (value) {
+    
+    Person.prototype.setName = function (value) {
         this._name = value;
     }
-}
+
+    return Person;
+})();
 
 var p1 = new Person("Manish");
 console.log(p1.getName());
@@ -22,4 +26,4 @@ console.log(p2.getName());
 p2.setName("Ramakant");
 console.log(p2.getName());
 
-// 280 bytes (140 bytes / instance)
+// 136 bytes (68 bytes / instance)

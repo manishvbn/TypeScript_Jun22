@@ -1,3 +1,4 @@
+"use strict";
 var d1;
 d1 = 10;
 var d2;

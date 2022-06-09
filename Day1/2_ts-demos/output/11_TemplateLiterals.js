@@ -1,3 +1,4 @@
+"use strict";
 var fname = "Manish";
 var lname = "Sharma";
 var message1 = "Hello, " + fname + " " + lname;

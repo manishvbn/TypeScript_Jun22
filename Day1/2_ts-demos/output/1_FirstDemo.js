@@ -1,3 +1,4 @@
+"use strict";
 var Program = (function () {
     function Program() {
     }

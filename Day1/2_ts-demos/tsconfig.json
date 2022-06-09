@@ -6,6 +6,8 @@
         "outDir": "output",
         "removeComments": true,
         "noEmitOnError": true,
+        "alwaysStrict": true,
+        "downlevelIteration": true,
         "lib": [
             "DOM",
             "ES2017"

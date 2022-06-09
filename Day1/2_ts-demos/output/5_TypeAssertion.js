@@ -1,3 +1,4 @@
+"use strict";
 var data1 = "Hello, I am a string";
 console.log(data1);
 console.log(typeof data1);

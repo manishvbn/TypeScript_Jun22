@@ -1,1 +1,7 @@
-console.log("Hello from first demo");
+class Program {
+    public static main(arg: string):void {
+        console.log(`Hello, ${arg}`);
+    }
+}
+
+Program.main("Synechron");

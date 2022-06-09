@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "None",
+        "target": "ES5",
+        "outDir": "output"
+    },
+    "exclude": [
+        "js-demos"
+    ]
+}

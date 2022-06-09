@@ -2,7 +2,7 @@
 
 function hello() {
     console.log(h);
-    var h = 6;
+    h = 6;
 }
 
 hello();

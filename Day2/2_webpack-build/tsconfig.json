@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "target": "ES5",
+        "outDir": "output",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noEmitOnError": true,
+        "alwaysStrict": true,
+        "downlevelIteration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strict": true,
+        "sourceMap": true,
+        "lib": [
+            "DOM",
+            "ES2017"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "exclude": [
+        "js-demos"
+    ]
+}

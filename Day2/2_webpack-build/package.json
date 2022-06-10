@@ -1,0 +1,29 @@
+{
+  "name": "webpack-build",
+  "version": "1.0.0",
+  "description": "Using webpack to create application build",
+  "private": true,
+  "scripts": {
+    "serve": "webpack serve",
+    "build": "webpack"
+  },
+  "author": "Manish Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.5.14",
+    "chalk": "^4.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "terser-webpack-plugin": "^5.3.3",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.4.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

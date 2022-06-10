@@ -8,6 +8,7 @@
         "noEmitOnError": true,
         "alwaysStrict": true,
         "downlevelIteration": true,
+        "strict": true,
         "lib": [
             "DOM",
             "ES2017"

@@ -18,18 +18,21 @@
 //     // Code to insert the data as row of a table
 // }
 
-function insert(data: [number, string]) {
-    // Code to insert the data as row of a table
-}
+// function insert(data: [number, string]) {
+//     // Code to insert the data as row of a table
+// }
 
-insert([1, "Manish"]);
+// insert([1, "Manish"]);
 
-let dataRow1: [number, string, number, string];
-let dataRow2: [number, string, (number | string)];
+// let dataRow1: [number, string, number, string];
+// let dataRow2: [number, string, (number | string)];
 
-type Employee = {
-    id: number,
-    name: string
-};
+// type Employee = {
+//     id: number,
+//     name: string
+// };
 
-let dataRow3: [number, string, boolean, Employee];
+// let dataRow3: [number, string, boolean, Employee];
+
+// let dataRow4: [number, string, boolean, { id: number, name: string }];
+

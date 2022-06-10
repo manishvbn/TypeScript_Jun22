@@ -103,23 +103,23 @@
 //     return { ...obj1, ...obj2 };
 // }
 
-function mergeObject<T1 extends object, T2 extends object>(obj1: T1, obj2: T2) {
-    return { ...obj1, ...obj2 };
-}
+// function mergeObject<T1 extends object, T2 extends object>(obj1: T1, obj2: T2) {
+//     return { ...obj1, ...obj2 };
+// }
 
-type t1 = {
-    id: number
-}
+// type t1 = {
+//     id: number
+// }
 
-type t2 = {
-    name: string
-}
+// type t2 = {
+//     name: string
+// }
 
-let rObj1 = mergeObject<t1, t2>({ id: 1 }, { name: "Manish" });
-console.log(rObj1);
+// let rObj1 = mergeObject<t1, t2>({ id: 1 }, { name: "Manish" });
+// console.log(rObj1);
 
-let rObj2 = mergeObject<number, boolean>(1, true);
-console.log(rObj2);
+// // let rObj2 = mergeObject<number, boolean>(1, true);
+// // console.log(rObj2);
 
 // ------------------------------------
 

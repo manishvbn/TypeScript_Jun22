@@ -9,6 +9,8 @@
         "alwaysStrict": true,
         "downlevelIteration": true,
         "strict": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
         "lib": [
             "DOM",
             "ES2017"

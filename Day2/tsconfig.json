@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "None",
+        "target": "ES5",
+        "noImplicitAny": true,
+        "outDir": "output",
+        "removeComments": true,
+        "noEmitOnError": true,
+        "alwaysStrict": true,
+        "downlevelIteration": true,
+        "lib": [
+            "DOM",
+            "ES2017"
+        ]
+    },
+    "exclude": [
+        "js-demos"
+    ]
+}

@@ -42,3 +42,6 @@ ordersQ.push({ id: 3, description: "Order Three" });
 for (const item of ordersQ) {
     console.log(`${item.id}         ${item.description}`);
 }
+
+// Iterator     - for of - Calls the next() of Queue Class
+// Iterable     - ordersQ (Queue is iterable) - Because it implements [Symbol.iterator]()

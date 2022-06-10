@@ -1,0 +1,75 @@
+// interface IVehicle {
+//     start(): string;
+//     move(): string;
+// }
+
+// class Vehicle implements IVehicle {
+//     private _id: number;
+//     protected _make: string;
+
+//     constructor(id: number, make = "NA") {
+//         this._id = id;
+//         this._make = make;
+//     }
+
+//     start(): string {
+//         return `Vehicle with id ${this._id}, make as ${this._make}, started`;
+//     }
+
+//     move(): string {
+//         return `Moving like a vehicle`;
+//     }
+// }
+
+// class FourWheeler extends Vehicle { }
+
+// var v = new FourWheeler(1, "Ford");
+// console.log(v.start());
+// console.log(v.move());
+
+// ---------------------------------------------------------
+
+interface IVehicle {
+    start(): string;
+    move(): string;
+}
+
+abstract class Vehicle implements IVehicle {
+    private _id: number;
+    protected _make: string;
+
+    constructor(id: number, make = "NA") {
+        this._id = id;
+        this._make = make;
+    }
+
+    start(): string {
+        return `Vehicle with id ${this._id}, make as ${this._make}, started`;
+    }
+
+    abstract move(): string;
+}
+
+class FourWheeler extends Vehicle {
+    private _model: string;
+
+    // Constructors for derived classes must contain a 'super' call.
+    constructor(id: number, make = "Honda", model = "Civic") {
+        super(id);
+        this._make = make;
+        this._model = model;
+    }
+
+    start(): string {
+        var bResult = super.start();
+        return `${bResult}, model is ${this._model}`;
+    }
+
+    move(): string {
+        return `Moving like ${this._model}`;
+    }
+}
+
+var v = new FourWheeler(1, "Ford", "Mustang");
+console.log(v.start());
+console.log(v.move());

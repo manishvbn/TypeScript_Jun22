@@ -40,18 +40,22 @@ Open(Mode.ReadWrite);
 
 // -----------------------------------------
 
+// Number Type
 function f1(x: number) {
 
 }
 
+// Typeguard
 function f2(x: number | string) {
 
 }
 
+// Typeguard Array
 function f3(x: (number | string)[]) {
 
 }
 
+// Tuple (Array)
 function f4(x: [number, string]) {
 
 }
